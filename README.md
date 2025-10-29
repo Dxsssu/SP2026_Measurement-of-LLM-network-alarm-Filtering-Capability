@@ -1,4 +1,4 @@
-# SecAlertBench: Evaluating Large Language Models for Alert Triage in Network Security Devices
+# SecAlertBench
 
 This repository contains materials from the paper SecAlertBench: Evaluating Large Language Models for Alert Triage in Network Security Devices.
 

@@ -70,4 +70,3 @@ The complete **SecAlertBench** dataset, comprising all 17,967 labeled alerts, is
 
 **We are committed to releasing the full dataset to the public upon the acceptance of our paper.**
 
-We believe that open access to this high-quality, real-world dataset will foster further research and development in AI-driven cybersecurity.

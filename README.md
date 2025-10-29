@@ -9,7 +9,7 @@ The `SecAlertBench` project introduces a systematic evaluation framework, includ
 Our full dataset, sourced from the SOCs of large enterprises, contains **17,967** meticulously labeled alert logs.
 
 
-## 🗂️ Dataset Categories
+## Dataset Categories
 
 The alert logs are categorized into four distinct types, reflecting real-world SOC scenarios. This repository contains examples for each category.
 
@@ -18,7 +18,7 @@ The alert logs are categorized into four distinct types, reflecting real-world S
 *   **Benign Triggers (BT):** Alerts triggered by authorized, non-malicious activities that mimic attack patterns, such as scheduled vulnerability scans or red team exercises.
 *   **Informational Events (IE):** Alerts that do not indicate a direct attack but highlight policy violations or risky behaviors, such as the use of weak passwords or outdated protocols.
 
-## 📝 Data Format
+## Data Format
 
 Each alert is presented as a single JSON object with a standardized schema. This format is designed to be easily parsable and suitable for input into LLMs.
 
@@ -50,7 +50,7 @@ Here is an example of a single alert log (anonymized):
     *   `request_body`/`response_body`: The body of the HTTP request/response.
     *   `payload`: The specific part of the data that is most relevant for analysis, often containing the potential attack signature.
 
-## 📂 File Structure
+## File Structure
 
 The example data is organized by category into `.jsonl` files (JSON Lines), where each line is a complete JSON object representing a single alert.
 
@@ -64,7 +64,7 @@ The example data is organized by category into `.jsonl` files (JSON Lines), wher
 └── README.md
 ```
 
-## ⏳ Full Dataset Availability
+## Full Dataset Availability
 
 The complete **SecAlertBench** dataset, comprising all 17,967 labeled alerts, is currently undergoing a final, rigorous anonymization review to ensure full compliance with privacy and confidentiality standards.
 
